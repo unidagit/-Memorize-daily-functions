@@ -24,8 +24,8 @@
 ## 정보
 
 
-<a href="https://www.youtube.com/channel/UCcABz4NaQQcLY2KxDNqr9-g/videos" target="_blank"><img src="https://img.shields.io/badge/유튜브-FF0000?style=round-square&logo=Youtube&logoColor=white"/></a>
-<a href="https://velog.io/@sjmh0507/series/1%EC%9D%BC-1%ED%95%A8%EC%88%98-%EB%83%85%EB%8B%A4-%EC%99%B8%EC%9A%B0%EA%B8%B0" target="_blank"><img src="https://img.shields.io/badge/벨로그-20C997?style=round-square&logo=Velog&logoColor=white"/></a>
+<a href="https://www.youtube.com/channel/UCgT3rDrqFgCgU759Ssf992A/videos" target="_blank"><img src="https://img.shields.io/badge/유튜브-FF0000?style=round-square&logo=Youtube&logoColor=white"/></a>
+<a href="https://velog.io/@uni?tag=1%EC%9D%BC1%ED%95%A8%EC%88%98" target="_blank"><img src="https://img.shields.io/badge/벨로그-20C997?style=round-square&logo=Velog&logoColor=white"/></a>
 
 <br>
 <br>
