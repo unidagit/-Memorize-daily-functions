@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="card-group container">
+      <div class="card">
+        <img src="https://via.placeholder.com/600" />
+        <div class="card-body">
+          <h5 id="title">Card title</h5>
+          <p id="price">가격 : 70000</p>
+          <button class="btn btn-danger">주문하기</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/600" />
+        <div class="card-body">
+          <h5 id="title">Card title</h5>
+          <p id="price">가격 : 70000</p>
+          <button class="btn btn-danger">주문하기</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/600" />
+        <div class="card-body">
+          <h5 id="title">Card title</h5>
+          <p id="price">가격 : 70000</p>
+          <button class="btn btn-danger">주문하기</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var products = [
+        { id: 0, price: 90000, title: 'Blossom Dress' },
+        { id: 1, price: 50000, title: 'Springfield Shirt' },
+        { id: 2, price: 60000, title: 'Black Monastery' },
+      ];
+
+      let title = document.querySelectorAll('#title');
+      let price = document.querySelectorAll('#price');
+
+      for (let i = 0; i <= title.length; i++) {
+        title[i].textContent = `${products[i].title}`;
+        price[i].textContent = `가격: ${products[i].price}`;
+      }
+      // document.querySelectorAll('.card-body h5')[0].innerHTML =
+      //   products[0].title;
+      // document.querySelectorAll('.card-body p')[0].innerHTML =
+      //   '가격' + products[0].price;
+
+      // document.querySelectorAll('.card-body h5')[1].innerHTML =
+      //   products[1].title;
+      // document.querySelectorAll('.card-body p')[1].innerHTML =
+      //   '가격' + products[1].price;
+
+      // document.querySelectorAll('.card-body h5')[2].innerHTML =
+      //   products[1].title;
+      // document.querySelectorAll('.card-body p')[2].innerHTML =
+      //   '가격' + products[1].price;
+    </script>
+  </body>
+</html>
