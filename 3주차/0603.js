@@ -2,11 +2,10 @@ function 성적(arr, b) {
   let result = 0;
 
   for (let i = 0; i < arr.length; i++) {
-    result = result + arr[i];
+    result += arr[i];
   }
 
   let output = result / arr.length;
-
   let a = 0;
 
   if (output < b) {
